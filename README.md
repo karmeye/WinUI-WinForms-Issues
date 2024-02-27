@@ -20,3 +20,4 @@ Running the WinForms project
 - Most of the times, to get changes made to the the `LibaryWindow.xaml` XAML in the WinUI.Library to be included in the build, one has to clean the obj and bin folders. Just cleaning the solution is not enough. 
   - Seems like unloading the WinForms project does help.. make it work.
   - Most of the times HotReload changes to `LibaryWindow.xaml` does not work. Probably related to the above.
+- When the `CommunityToolkit.WinUI.Controls.SettingsCard` is included in `LibraryWindow.xml` (currently commented out), running the WinForms project and opening the `Window` results in a `Microsoft.UI.Xaml.Markup.XamlParseException: XAML parsing failed.` See [discussion](https://github.com/CommunityToolkit/Windows/discussions/345). 
