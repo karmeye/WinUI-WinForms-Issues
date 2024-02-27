@@ -12,7 +12,7 @@ Running the WinUI project Unpackaged.
 
 Running the WinForms project
 
-- Opening the WinUI `Window`
+- Opening the WinUI `Window`(More info: [issue](https://github.com/microsoft/WindowsAppSDK/discussions/4203#discussioncomment-8555041))
   1. When `Window` is closed the `Form` is also closed and therefore the whole application quits.
   2. The `Microsoft.UI.XAML.Controls.TextBox` in the `Window` does not respond to keyboard input.
 - When publishing the WinForms project and clicking the button to open the WinUI `Window` a `Microsoft.UI.Xaml.Markup.XamlParseException: XAML parsing failed.` is thrown.
